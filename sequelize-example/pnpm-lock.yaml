@@ -1,0 +1,283 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@types/node':
+    specifier: ^22.0.0
+    version: 22.0.0
+  '@types/sequelize':
+    specifier: ^4.28.20
+    version: 4.28.20
+  oracledb:
+    specifier: ^6.6.0
+    version: 6.6.0
+  sequelize:
+    specifier: ^6.37.3
+    version: 6.37.3(oracledb@6.6.0)
+  sequelize-oracle:
+    specifier: 3.3.2-0.0
+    version: 3.3.2-0.0
+  typescript:
+    specifier: ^5.5.4
+    version: 5.5.4
+
+packages:
+
+  /@types/bluebird@3.5.42:
+    resolution: {integrity: sha512-Jhy+MWRlro6UjVi578V/4ZGNfeCOcNCp0YaFNIUGFKlImowqwb1O/22wDVk3FDGMLqxdpOV3qQHD5fPEH4hK6A==}
+    dev: false
+
+  /@types/continuation-local-storage@3.2.7:
+    resolution: {integrity: sha512-Q7dPOymVpRG5Zpz90/o26+OAqOG2Sw+FED7uQmTrJNCF/JAPTylclZofMxZKd6W7g1BDPmT9/C/jX0ZcSNTQwQ==}
+    dependencies:
+      '@types/node': 22.0.0
+    dev: false
+
+  /@types/debug@4.1.12:
+    resolution: {integrity: sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==}
+    dependencies:
+      '@types/ms': 0.7.34
+    dev: false
+
+  /@types/lodash@4.17.7:
+    resolution: {integrity: sha512-8wTvZawATi/lsmNu10/j2hk1KEP0IvjubqPE3cu1Xz7xfXXt5oCq3SNUz4fMIP4XGF9Ky+Ue2tBA3hcS7LSBlA==}
+    dev: false
+
+  /@types/ms@0.7.34:
+    resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
+    dev: false
+
+  /@types/node@22.0.0:
+    resolution: {integrity: sha512-VT7KSYudcPOzP5Q0wfbowyNLaVR8QWUdw+088uFWwfvpY6uCWaXpqV6ieLAu9WBcnTa7H4Z5RLK8I5t2FuOcqw==}
+    dependencies:
+      undici-types: 6.11.1
+    dev: false
+
+  /@types/sequelize@4.28.20:
+    resolution: {integrity: sha512-XaGOKRhdizC87hDgQ0u3btxzbejlF+t6Hhvkek1HyphqCI4y7zVBIVAGmuc4cWJqGpxusZ1RiBToHHnNK/Edlw==}
+    dependencies:
+      '@types/bluebird': 3.5.42
+      '@types/continuation-local-storage': 3.2.7
+      '@types/lodash': 4.17.7
+      '@types/validator': 13.12.0
+    dev: false
+
+  /@types/validator@13.12.0:
+    resolution: {integrity: sha512-nH45Lk7oPIJ1RVOF6JgFI6Dy0QpHEzq4QecZhvguxYPDwT8c93prCMqAtiIttm39voZ+DDR+qkNnMpJmMBRqag==}
+    dev: false
+
+  /bluebird@2.9.34:
+    resolution: {integrity: sha512-ZDzCb87X7/IP1uzQ5eJZB+WoQRGTnKL5DHWvPw6kkMbQseouiQIrEi3P1UGE0D1k0N5/+aP/5GMCyHZ1xYJyHQ==}
+    dev: false
+
+  /debug@4.3.6:
+    resolution: {integrity: sha512-O/09Bd4Z1fBrU4VzkhFqVgpPzaGbw6Sm9FEkBT1A/YBXQFGuuSxa1dN2nxgxS34JmKXqYx8CZAwEVoJFImUXIg==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.2
+    dev: false
+
+  /depd@1.1.2:
+    resolution: {integrity: sha512-7emPTl6Dpo6JRXOXjLRxck+FlLRX5847cLKEn00PLAgc3g2hTZZgr+e4c2v6QpSmLeFP3n5yUo7ft6avBK/5jQ==}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /dottie@0.3.1:
+    resolution: {integrity: sha512-1l+bzal93xF7U1MUkF3DpZu8FiyHy4gg2vq3PjPqG8qY1k2e7ZJn7osJlBolfG2DaOmDt5UbkLnCo88zqsMo+g==}
+    dev: false
+
+  /dottie@2.0.6:
+    resolution: {integrity: sha512-iGCHkfUc5kFekGiqhe8B/mdaurD+lakO9txNnTvKtA6PISrw86LgqHvRzWYPyoE2Ph5aMIrCw9/uko6XHTKCwA==}
+    dev: false
+
+  /generic-pool@2.2.0:
+    resolution: {integrity: sha512-mPcLSdb8iADPF5Fy5M7AcFQ07QDxhAbz0KvzUIXVhJBYi8ELRHWXweJ8XTy6lyjh9b3nndSsTeOo3ElOOu2FsA==}
+    engines: {node: '>= 0.2.0'}
+    dev: false
+
+  /inflection@1.13.4:
+    resolution: {integrity: sha512-6I/HUDeYFfuNCVS3td055BaXBwKYuzw7K3ExVMStBowKo9oOAMJIXIHvdyR3iboTCp1b+1i5DSkIZTcwIktuDw==}
+    engines: {'0': node >= 0.4.0}
+    dev: false
+
+  /lodash@3.10.1:
+    resolution: {integrity: sha512-9mDDwqVIma6OZX79ZlDACZl8sBm0TEnkf99zV3iMA4GzkIT/9hiqP5mY0HoT1iNLCrKc/R1HByV+yJfRWVJryQ==}
+    dev: false
+
+  /lodash@4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false
+
+  /moment-timezone@0.4.1:
+    resolution: {integrity: sha512-5cNPVUwaVJDCe9JM8m/qz17f9SkaI8rpnRUyDJi2K5HAd6EwhuQ3n5nLclZkNC/qJnomKgQH2TIu70Gy2dxFKA==}
+    dependencies:
+      moment: 2.30.1
+    dev: false
+
+  /moment-timezone@0.5.45:
+    resolution: {integrity: sha512-HIWmqA86KcmCAhnMAN0wuDOARV/525R2+lOLotuGFzn4HO+FH+/645z2wx0Dt3iDv6/p61SIvKnDstISainhLQ==}
+    dependencies:
+      moment: 2.30.1
+    dev: false
+
+  /moment@2.30.1:
+    resolution: {integrity: sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==}
+    dev: false
+
+  /ms@2.1.2:
+    resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
+    dev: false
+
+  /node-uuid@1.4.8:
+    resolution: {integrity: sha512-TkCET/3rr9mUuRp+CpO7qfgT++aAxfDRaalQhwPFzI9BY/2rCDn6OfpZOVggi1AXfTPpfkTrg5f5WQx5G1uLxA==}
+    deprecated: Use uuid module instead
+    hasBin: true
+    dev: false
+
+  /oracledb@6.6.0:
+    resolution: {integrity: sha512-T3dx+o3j+tVN53wQyr4yGTmoPHLy+a2V8yb1T2PmWrsj3ZlSt2Yu1BgV2yTDqnmBZYpRi/I3yJXRCOHHD7PiyA==}
+    engines: {node: '>=14.6'}
+    requiresBuild: true
+    dev: false
+
+  /pg-connection-string@2.6.4:
+    resolution: {integrity: sha512-v+Z7W/0EO707aNMaAEfiGnGL9sxxumwLl2fJvCQtMn9Fxsg+lPpPkdcyBSv/KFgpGdYkMfn+EI1Or2EHjpgLCA==}
+    dev: false
+
+  /retry-as-promised@7.0.4:
+    resolution: {integrity: sha512-XgmCoxKWkDofwH8WddD0w85ZfqYz+ZHlr5yo+3YUCfycWawU56T5ckWXsScsj5B8tqUcIG67DxXByo3VUgiAdA==}
+    dev: false
+
+  /semver@7.6.3:
+    resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dev: false
+
+  /sequelize-oracle@3.3.2-0.0:
+    resolution: {integrity: sha512-t7yBXAYjqtIVlteIIc2l2v46nALBfdYS5NMyR4TowdPwDCnZuS0ZEtKLP6bWqvvLSYvI8kLAkydafreXyl7aVw==}
+    engines: {node: '>=0.6.21'}
+    dependencies:
+      bluebird: 2.9.34
+      depd: 1.1.2
+      dottie: 0.3.1
+      generic-pool: 2.2.0
+      inflection: 1.13.4
+      lodash: 3.10.1
+      moment: 2.30.1
+      moment-timezone: 0.4.1
+      node-uuid: 1.4.8
+      shimmer: 1.0.0
+      toposort-class: 0.3.1
+      validator: 3.43.0
+    dev: false
+
+  /sequelize-pool@7.1.0:
+    resolution: {integrity: sha512-G9c0qlIWQSK29pR/5U2JF5dDQeqqHRragoyahj/Nx4KOOQ3CPPfzxnfqFPCSB7x5UgjOgnZ61nSxz+fjDpRlJg==}
+    engines: {node: '>= 10.0.0'}
+    dev: false
+
+  /sequelize@6.37.3(oracledb@6.6.0):
+    resolution: {integrity: sha512-V2FTqYpdZjPy3VQrZvjTPnOoLm0KudCRXfGWp48QwhyPPp2yW8z0p0sCYZd/em847Tl2dVxJJ1DR+hF+O77T7A==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      ibm_db: '*'
+      mariadb: '*'
+      mysql2: '*'
+      oracledb: '*'
+      pg: '*'
+      pg-hstore: '*'
+      snowflake-sdk: '*'
+      sqlite3: '*'
+      tedious: '*'
+    peerDependenciesMeta:
+      ibm_db:
+        optional: true
+      mariadb:
+        optional: true
+      mysql2:
+        optional: true
+      oracledb:
+        optional: true
+      pg:
+        optional: true
+      pg-hstore:
+        optional: true
+      snowflake-sdk:
+        optional: true
+      sqlite3:
+        optional: true
+      tedious:
+        optional: true
+    dependencies:
+      '@types/debug': 4.1.12
+      '@types/validator': 13.12.0
+      debug: 4.3.6
+      dottie: 2.0.6
+      inflection: 1.13.4
+      lodash: 4.17.21
+      moment: 2.30.1
+      moment-timezone: 0.5.45
+      oracledb: 6.6.0
+      pg-connection-string: 2.6.4
+      retry-as-promised: 7.0.4
+      semver: 7.6.3
+      sequelize-pool: 7.1.0
+      toposort-class: 1.0.1
+      uuid: 8.3.2
+      validator: 13.12.0
+      wkx: 0.5.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /shimmer@1.0.0:
+    resolution: {integrity: sha512-cObpDFWg7sBwR87R+Mg7umM/V8be9jjm9hSFRberxaxyWZ7Wqksmf1FPACuEKAO5XXeSuUr0DGD9PebmM6m8fA==}
+    dev: false
+
+  /toposort-class@0.3.1:
+    resolution: {integrity: sha512-r8y3rqJ0FlmH+ZpXj3tKDw8fhLqRVH9rUFdal5p29Y/Xg50TM+PIkOPu2P/w/KxHViwfRQKvRdYg7G937TALkg==}
+    dev: false
+
+  /toposort-class@1.0.1:
+    resolution: {integrity: sha512-OsLcGGbYF3rMjPUf8oKktyvCiUxSbqMMS39m33MAjLTC1DVIH6x3WSt63/M77ihI09+Sdfk1AXvfhCEeUmC7mg==}
+    dev: false
+
+  /typescript@5.5.4:
+    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: false
+
+  /undici-types@6.11.1:
+    resolution: {integrity: sha512-mIDEX2ek50x0OlRgxryxsenE5XaQD4on5U2inY7RApK3SOJpofyw7uW2AyfMKkhAxXIceo2DeWGVGwyvng1GNQ==}
+    dev: false
+
+  /uuid@8.3.2:
+    resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    hasBin: true
+    dev: false
+
+  /validator@13.12.0:
+    resolution: {integrity: sha512-c1Q0mCiPlgdTVVVIJIrBuxNicYE+t/7oKeI9MWLj3fh/uq2Pxh/3eeWbVZ4OcGW1TUf53At0njHw5SMdA3tmMg==}
+    engines: {node: '>= 0.10'}
+    dev: false
+
+  /validator@3.43.0:
+    resolution: {integrity: sha512-H9RMa5elH0361QGFKeZiIWxN0YJDKL9rblzaXVFEKrKkL9hROcg/4f5rJ90SLTjai0IPmN18v9LkH//wwN93bA==}
+    engines: {node: '>= 0.10'}
+    dev: false
+
+  /wkx@0.5.0:
+    resolution: {integrity: sha512-Xng/d4Ichh8uN4l0FToV/258EjMGU9MGcA0HV2d9B/ZpZB3lqQm7nkOdZdm5GhKtLLhAE7PiVQwN4eN+2YJJUg==}
+    dependencies:
+      '@types/node': 22.0.0
+    dev: false

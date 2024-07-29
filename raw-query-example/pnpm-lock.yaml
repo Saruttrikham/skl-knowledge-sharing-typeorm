@@ -1,0 +1,18 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  oracledb:
+    specifier: ^6.6.0
+    version: 6.6.0
+
+packages:
+
+  /oracledb@6.6.0:
+    resolution: {integrity: sha512-T3dx+o3j+tVN53wQyr4yGTmoPHLy+a2V8yb1T2PmWrsj3ZlSt2Yu1BgV2yTDqnmBZYpRi/I3yJXRCOHHD7PiyA==}
+    engines: {node: '>=14.6'}
+    requiresBuild: true
+    dev: false

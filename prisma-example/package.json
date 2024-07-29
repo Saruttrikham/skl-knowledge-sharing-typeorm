@@ -1,0 +1,24 @@
+{
+  "name": "prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prisma": "prisma",
+    "migrate": "prisma migrate dev --name init",
+    "generate": "prisma generate",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.17.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.17.0",
+    "typescript": "^5.5.4"
+  }
+}
