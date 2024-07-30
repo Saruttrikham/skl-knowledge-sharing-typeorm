@@ -8,6 +8,12 @@ import { ViewEntity, ViewColumn } from "typeorm";
 export class PostView {
   @ViewColumn()
   id: number;
+
+  @ViewColumn()
+  title: string;
+
+  @ViewColumn()
+  content: string;
 }
 
 

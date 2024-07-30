@@ -15,6 +15,9 @@ export class Post {
   @ManyToOne(() => Category, category => category.posts)
   category: Category;
 }
+
+
+
 // @Entity()
 // export class Post extends BaseEntity {
 //   @PrimaryGeneratedColumn()
@@ -28,4 +31,8 @@ export class Post {
 
 //   @ManyToOne(() => Category, (category) => category.posts)
 //   category: Category;
+
+//   static findAllPosts() {
+//     return this.find();
+//   }
 // }
